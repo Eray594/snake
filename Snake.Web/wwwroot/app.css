@@ -1,0 +1,52 @@
+
+* {
+    font-family: "Arial", serif;
+}
+
+
+/*Cell*/
+.cell {
+    border: 1px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+/*Playground*/
+.playground-container {
+    margin-top: 50px;
+}
+
+.playground {
+    display: grid;
+    justify-content: center;
+}
+
+/*MainLayout*/
+.main-layout-container {
+    margin: 30px;
+    text-align: center;
+}
+
+/*Button*/
+.basic-button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    border: none;
+}
+
+.primary-button {
+    background: #1D1D1D;
+}
+
+.secondary-button {
+    background: #ED4D4C;
+}
+
+.title {
+    font-family: "Showcard Gothic", sans-serif;
+    font-size: 64px;
+}
